@@ -1,0 +1,274 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.allCards {
+  background-color: #f6fcff;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 1432px;
+  height: 792px;
+  padding-top: 8px;
+  padding-left: 8px;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.logoutBtn {
+  cursor: pointer;
+  border-style: none;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 28px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 16px 16px 16px 24px;
+  max-height: 80px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cards:hover {
+  border: 1px solid #9bcffd;
+}
+
+.travelHead {
+  display: flex;
+  gap: 828px;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 12%);
+  height: 65px;
+  width: 1440px;
+  justify-content: flex-end;
+}
+
+.titleName {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  border-bottom: 1px solid #007bff;
+}
+
+.userName {
+  width: 174px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.userText {
+  display: flex;
+  align-items: center;
+  color: #0e73f6;
+  border-bottom: 1px dashed #0e73f6;
+  max-width: 142px;
+  height: 48px;
+  font: 14px/24px Inter;
+  letter-spacing: -0.6px;
+}
+
+.travelInfo {
+  display: flex;
+  gap: 24px;
+  padding: 10px 16px 6px;
+  height: 56px;
+  width: 1408px;
+  align-items: center;
+}
+
+.archiveTravel {
+  font: 12px/16px Inter;
+  display: flex;
+  align-items: center;
+}
+
+.myTravel {
+  width: 102px;
+  height: 24px;
+  letter-spacing: -0.35px;
+  font: bold 16px/24px Inter;
+}
+
+.tooltipToggle {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.tooltip {
+  font: 14px/24px Inter;
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipText {
+  background-color: #303940;
+  color: #f6f8f9;
+  font: 12px/16px Inter;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 219px;
+  position: absolute;
+  display: none;
+  z-index: 1000;
+  bottom: calc(100% + 5px);
+  left: 53%;
+  transform: translateX(100%);
+}
+
+.tooltipToggle:hover + .tooltipText,
+.tooltipToggle:focus + .tooltipText {
+  display: block;
+}
+
+.makeTravel {
+  background-color: #4094f7;
+  color: white;
+  border-radius: 4px;
+  width: 178px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px 0 6px;
+  cursor: pointer;
+  border-style: none;
+  font: 14px/24px Inter;
+}
+
+.navForm {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.navContainer {
+  background-color: #f6fcff;
+  height: 48px;
+  width: 1408px;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d7edff;
+  overflow-x: visible;
+}
+
+.timeInput {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  color: #4094f7;
+  border-style: none;
+  background-color: #f6fcff;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchNav {
+  margin-left: 32px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 32px;
+  gap: 32px;
+}
+
+.statusStyle {
+  color: #5b6871;
+  background-color: #eef0f2;
+  border-radius: 10px;
+  font: 12px/16px Inter;
+  padding: 4px 8px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardTravel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 68px;
+  height: 48px;
+}
+
+.classificationName {
+  font: 12px/16px Inter;
+}
+
+.resultName {
+  font: 14px/24px Inter;
+}
+.resultNameId {
+  font: 14px/24px Inter;
+  color: #0e73f6;
+}
+
+.planSummCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 114px;
+  height: 48px;
+}
+
+.factSummCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 86px;
+  height: 48px;
+}
+
+.dateTravel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 176px;
+  height: 48px;
+}
+
+.cityCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 639px;
+  height: 48px;
+}
+
+.statusCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 96px;
+  height: 48px;
+}
+
+.inputTime {
+  border-radius: 6px;
+  border: 1px solid #dde2e4;
+  width: 180px;
+  height: 32px;
+}

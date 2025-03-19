@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Travel Documents</title>
+  </head>
+
+  <header>
+    <div class="travelHead">
+      <span class="titleName">Поездки</span>
+      <div class="userName">
+        <span class="userText"
+          >Заболоцкий К.О
+          <button class="logoutBtn">
+            <img
+              src="Public\icons\Logout.svg"
+              width="24px"
+              height="24px"
+            /></button
+        ></span>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="travelInfo">
+      <span class="myTravel">Мои поездки</span>
+      <button class="makeTravel">
+        <img src="Public\icons\Plus.svg" /> Оформить поездку
+      </button>
+    </div>
+
+    <form class="navContainer">
+      <div class="navForm">
+        <div class="timeInput">
+          Период с:
+          <input type="date" value="2024-02-22" class="inputTime" />
+        </div>
+        <div class="timeInput">
+          по:
+          <input type="date" class="inputTime" />
+        </div>
+        <input type="search" placeholder="Поиск..." class="inputTime" />
+        <button class="deleteBtn">
+          <img src="Public/icons/close.svg" /> Сбросить все
+        </button>
+      </div>
+      <div>
+        <span class="archiveTravel"
+          ><input type="checkbox" /> Показать архивные поездки</span
+        >
+      </div>
+    </form>
+
+    <div class="allCards">
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000117</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000074</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="tooltip"
+            >Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск,
+            Волго...
+            <button class="tooltipToggle" type="button">
+              <img src="Public/icons/Vector.svg" />
+            </button>
+            <span class="tooltipText">
+              Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск,
+              Волгоград, Саратов
+            </span>
+          </span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000115</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000211</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000118</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000119</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000120</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="cardTravel">
+          <span class="classificationName">№ поездки</span>
+          <span class="resultNameId">000133</span>
+        </div>
+        <div class="dateTravel">
+          <span class="classificationName">Дата поездки</span>
+          <span class="resultName">22.02.2024 - 27.02.2024</span>
+        </div>
+        <div class="planSummCard">
+          <span class="classificationName">Сумма, план</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="factSummCard">
+          <span class="classificationName">Сумма, факт</span>
+          <span class="resultName">29,400,00</span>
+        </div>
+        <div class="cityCard">
+          <span class="classificationName">Город</span>
+          <span class="resultName">Москва, Ярославль, Ижевск, Владимир</span>
+        </div>
+        <div class="statusCard">
+          <span class="classificationName">Статус</span>
+          <span class="statusStyle">Документы</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
