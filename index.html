@@ -21,6 +21,7 @@
           <button class="logoutBtn">
             <img
               src="Public\icons\Logout.svg"
+              alt="Logout"
               width="24px"
               height="24px"
             /></button
@@ -32,7 +33,8 @@
     <div class="travelInfo">
       <span class="myTravel">Мои поездки</span>
       <button class="makeTravel">
-        <img src="Public\icons\Plus.svg" /> Оформить поездку
+        <img src="Public\icons\Plus.svg" alt="Plus" width="24" height="24" />
+        Оформить поездку
       </button>
     </div>
 
@@ -40,15 +42,51 @@
       <div class="navForm">
         <div class="timeInput">
           Период с:
-          <input type="date" value="2024-02-22" class="inputTime" />
+          <label class="inputWrapper">
+            <input type="text" class="inputWithIcon" value="22.02.2024" />
+            <img
+              src="Public\icons\Xclose.svg"
+              alt="Xclose"
+              class="inputIconClose"
+            />
+            <img
+              src="Public\icons\Calendar.svg"
+              alt="Calendar"
+              class="inputIcon"
+            />
+          </label>
         </div>
         <div class="timeInput">
           по:
-          <input type="date" class="inputTime" />
+          <label class="inputWrapper">
+            <input type="text" class="inputWithIcon" placeholder="Выбрать..." />
+            <img
+              src="Public\icons\Calendar.svg"
+              alt="Calendar"
+              class="inputIcon"
+            />
+          </label>
         </div>
-        <input type="search" placeholder="Поиск..." class="inputTime" />
+        <label class="inputWrapperSearch">
+          <input
+            type="text"
+            class="inputWithIconSearch"
+            placeholder="Поиск..."
+          />
+          <img
+            src="Public\icons\Search.svg"
+            alt="Search"
+            class="inputIconSearch"
+          />
+        </label>
         <button class="deleteBtn">
-          <img src="Public/icons/close.svg" /> Сбросить все
+          <img
+            src="Public/icons/close.svg"
+            alt="close"
+            width="16"
+            height="16"
+          />
+          Сбросить все
         </button>
       </div>
       <div>
@@ -70,11 +108,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -97,11 +135,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -124,11 +162,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -151,11 +189,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -178,11 +216,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -205,11 +243,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -232,11 +270,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -259,11 +297,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -286,11 +324,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -298,7 +336,12 @@
             >Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск,
             Волго...
             <button class="tooltipToggle" type="button">
-              <img src="Public/icons/Vector.svg" />
+              <img
+                src="Public/icons/Vector.svg"
+                alt="Vector"
+                width="16"
+                height="16"
+              />
             </button>
             <span class="tooltipText">
               Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск,
@@ -323,11 +366,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -350,11 +393,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -377,11 +420,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -404,11 +447,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -431,11 +474,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
@@ -458,11 +501,11 @@
         </div>
         <div class="planSummCard">
           <span class="classificationName">Сумма, план</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="factSummCard">
           <span class="classificationName">Сумма, факт</span>
-          <span class="resultName">29,400,00</span>
+          <span class="resultName">29 400,00</span>
         </div>
         <div class="cityCard">
           <span class="classificationName">Город</span>
