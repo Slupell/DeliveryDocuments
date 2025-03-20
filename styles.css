@@ -3,6 +3,7 @@ body {
   margin: 0;
   display: grid;
   place-items: center;
+  font-family: Inter;
 }
 
 .allCards {
@@ -40,12 +41,13 @@ body {
   gap: 28px;
   border-radius: 6px;
   background-color: #ffffff;
-  padding: 16px 16px 16px 24px;
-  max-height: 80px;
+  padding: 16px 14px 16px 24px;
+  height: 46px;
   flex-wrap: nowrap;
-  width: 1400px;
+  width: 1382px;
   justify-content: space-between;
   flex-direction: row;
+  border: 1px solid white;
 }
 
 .cards:hover {
@@ -61,7 +63,7 @@ body {
   gap: 828px;
   box-shadow: 0 4px 24px rgb(0 0 0 / 12%);
   height: 65px;
-  width: 1440px;
+  width: 1438px;
   justify-content: flex-end;
 }
 
@@ -72,6 +74,8 @@ body {
   justify-content: flex-end;
   flex-direction: row;
   border-bottom: 1px solid #007bff;
+  font: bold 14px/24px Inter;
+  letter-spacing: -0.6px;
 }
 
 .userName {
@@ -79,6 +83,8 @@ body {
   height: 64px;
   display: flex;
   align-items: center;
+  font: 14px/24px Inter;
+  letter-spacing: -0.6px;
 }
 
 .userText {
@@ -88,8 +94,6 @@ body {
   border-bottom: 1px dashed #0e73f6;
   max-width: 142px;
   height: 48px;
-  font: 14px/24px Inter;
-  letter-spacing: -0.6px;
 }
 
 .travelInfo {
@@ -179,7 +183,6 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #d7edff;
-  overflow-x: visible;
 }
 
 .timeInput {
@@ -256,6 +259,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: row;
+  font: 12px/16px Inter;
 }
 
 .searchNav {
@@ -276,9 +280,6 @@ body {
   border-radius: 10px;
   font: 12px/16px Inter;
   padding: 4px 8px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 .cardTravel {
@@ -291,13 +292,17 @@ body {
 
 .classificationName {
   font: 12px/16px Inter;
+  letter-spacing: 0px;
+  color: #84919a;
 }
 
 .resultName {
   font: 14px/24px Inter;
+  letter-spacing: -0.6px;
 }
 .resultNameId {
   font: 14px/24px Inter;
+  letter-spacing: -0.6px;
   width: 48px;
   color: #0e73f6;
   border-bottom: 1px solid #4094f7;
@@ -309,6 +314,7 @@ body {
   gap: 8px;
   width: 114px;
   height: 48px;
+  align-items: flex-end;
 }
 
 .factSummCard {
@@ -317,6 +323,7 @@ body {
   gap: 8px;
   width: 86px;
   height: 48px;
+  align-items: flex-end;
 }
 
 .dateTravel {
